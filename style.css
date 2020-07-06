@@ -14,11 +14,14 @@
 
 html{
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+  overflow-x: hidden;
+  padding-top: 62px!important;
 }
 
 header{
@@ -81,14 +84,16 @@ a.separador:after{
 
 .cabecera{
 
-	background-color: green;
+	background: rgb(0,22,93);
+	background: linear-gradient(90deg, rgba(0,22,93,1) 0%, rgba(9,98,121,1) 50%, rgba(30,126,52,1) 100%);
 	background-image: url("img/background-1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
+	/*background-attachment: fixed;
+	background-position: center;*/
 	min-height: 600px;
-	padding:0px 0px 70px 70px;
+	padding:0px 0px ;
+	margin: 0;
 }
 
 .servicios div{
@@ -97,7 +102,11 @@ a.separador:after{
 }
 
 .blog{
-	margin-top: 20px;
+	
+	box-shadow: 10px 10px 25px -9px rgba(0,0,0,0.7);
+	padding: 0px;
+	margin: 40px 30px 20px 30px;
+
 }
 
 .blog div{
@@ -111,11 +120,48 @@ a.separador:after{
 
 .blog-image{
 	width: 100%;
-	height: 350px;
+	height: 450px;
 	background-size: cover;
 	transition: transform .6s; /* Animation */
 }
 
 .blog-image:hover{
 	transform: scale(1.1);
+}
+
+.btn-search{
+	border-radius: 0px 20px 20px 0px; 
+	background-color: tra; 
+	border: 1px solid green; 
+	border-left: 1px solid transparent; 
+	outline:none !important; 
+	outline-width: 0 !important; 
+	box-shadow: none;
+	background: transparent;
+}
+
+.btn-search:focus{
+	outline:none !important; 
+	outline-width: 0 !important; 
+	box-shadow: none;
+	background: transparent;
+}
+
+.input-search{
+	border-radius: 20px 0px 0px 20px;
+	border: 1px solid green; 
+	border-right: 1px solid transparent;
+	width: 120px!important;
+	transition: all .5s;
+	background: transparent;
+	
+}
+
+.input-search:focus{
+	outline:none !important; 
+	outline-width: 0 !important; 
+	box-shadow: none;
+	border: 1px solid green; 
+	border-right: 1px solid white;
+	width: 280px!important;
 }

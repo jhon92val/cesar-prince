@@ -20,7 +20,7 @@
 
 <body>
 
-<!-- Seccion Barra de Menú <div class="fixed-top">-->
+<!-- Seccion Barra de Menú <div class="fixed-top">
     <div class="fixed-top">
       
       <nav class="navbar navbar-light bg-light">
@@ -56,9 +56,53 @@
             </div>
         </div>
       </div>
-    </div>
+    </div>-->
 <!--Fin Seccion Barra de Menú -->
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="menu">
+    <a class="navbar-brand" href="#">
+        <img src="img/logo.png" width="200" alt="" loading="lazy">
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+
+            <div class="input-group">
+              <input type="text" class="form-control input-search" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default btn-search" type="button"><span class="fa fa-search text-success"></span></button>
+              </span>
+            </div>
+
+        </div>
+      </form>
+    </div>
+  </nav>
 
 <!-- Seccion de Cabecera -->
     <header class="cabecera d-flex align-items-end" id="inicio">
@@ -74,6 +118,7 @@
         </div>    
     </header>
 <!-- Seccion de Cabecera -->
+
 
 
 <!-- Seccion Oferta Académica -->
@@ -144,13 +189,13 @@
 
 <!-- Seccion Blog -->
 
-<section id="blog">
+<section id="blog p-5">
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-                <div class="row p-5">
-                <div class="blog col-md-4">
+            <div class="row justify-content-md-center">
+                <div class="blog col-md-3">
                     <div>
                     <a href="#">              
                         <div style="background-image: url('img/blog/1.jpg');" class="blog-image"></div>
@@ -169,7 +214,7 @@
                         <b class=""></b>
                     </div>
                 </div>
-                <div class="blog col-md-4">
+                <div class="blog col-md-3">
                     <div>
                     <a href="#">              
                         <div style="background-image: url('img/blog/2.jpg');" class="blog-image"></div>
@@ -188,7 +233,7 @@
                         <b class=""></b>
                     </div>
                 </div>
-                <div class="blog col-md-4">
+                <div class="blog col-md-3">
                     <div>
                     <a href="#">              
                         <div style="background-image: url('img/blog/3.jpg');" class="blog-image"></div>
@@ -207,12 +252,12 @@
                         <b class=""></b>
                     </div>
                 </div>
-            </div>
         </div>
 
+        </div>
         <div class="carousel-item">
-                <div class="row p-5">
-                <div class="blog col-md-4">
+            <div class="row justify-content-md-center">
+                <div class="blog col-md-3">
                     <div>
                     <a href="#">              
                         <div style="background-image: url('img/blog/4.jpg');" class="blog-image"></div>
@@ -231,7 +276,7 @@
                         <b class=""></b>
                     </div>
                 </div>
-                <div class="blog col-md-4">
+                <div class="blog col-md-3">
                     <div>
                     <a href="#">              
                         <div style="background-image: url('img/blog/5.jpg');" class="blog-image"></div>
@@ -250,7 +295,7 @@
                         <b class=""></b>
                     </div>
                 </div>
-                <div class="blog col-md-4">                
+                <div class="blog col-md-3">
                     <div>
                     <a href="#">              
                         <div style="background-image: url('img/blog/6.jpg');" class="blog-image"></div>
@@ -269,12 +314,14 @@
                         <b class=""></b>
                     </div>
                 </div>
-            </div>
         </div>
 
+
+
+        </div>
         <div class="carousel-item">
-                <div class="row p-5">
-                <div class="blog col-md-4">                
+            <div class="row justify-content-md-center">
+                <div class="blog col-md-3">
                     <div>
                     <a href="#">              
                         <div style="background-image: url('img/blog/7.jpg');" class="blog-image"></div>
@@ -293,7 +340,7 @@
                         <b class=""></b>
                     </div>
                 </div>
-                <div class="blog col-md-4">                
+                <div class="blog col-md-3">
                     <div>
                     <a href="#">              
                         <div style="background-image: url('img/blog/8.jpg');" class="blog-image"></div>
@@ -312,7 +359,7 @@
                         <b class=""></b>
                     </div>
                 </div>
-                <div class="blog col-md-4">                
+                <div class="blog col-md-3">
                     <div>
                     <a href="#">              
                         <div style="background-image: url('img/blog/9.jpg');" class="blog-image"></div>
@@ -331,10 +378,8 @@
                         <b class=""></b>
                     </div>
                 </div>
-            </div>
         </div>
-
-  </div>
+        </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Anterior</span>
@@ -349,16 +394,17 @@
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery/jquery-3.5.1.min.js"></script>    
     <!-- Popper js -->
     <script src="js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap js -->
     <script src="js/bootstrap/bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="js/main.js"></script>
-
     <script src="js/aos/aos.js"></script>
+    
+    <script type="text/javascript" src="js/main.js"></script>
     <script>
         AOS.init();
     </script>
+
 </body>
