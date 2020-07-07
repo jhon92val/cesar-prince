@@ -85,7 +85,7 @@ a.separador:after{
 .cabecera{
 
 	background: rgb(0,22,93);
-	background: linear-gradient(90deg, rgba(0,22,93,1) 0%, rgba(9,98,121,1) 50%, rgba(30,126,52,1) 100%);
+
 	background-image: url("img/background-1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -94,6 +94,22 @@ a.separador:after{
 	min-height: 600px;
 	padding:0px 0px ;
 	margin: 0;
+	position: relative;
+}
+
+.capa-cabecera{
+	background: linear-gradient(90deg, rgba(0,22,93,0.8) 0%, rgba(9,98,121,0.8) 50%, rgba(30,126,52,0.8) 100%);
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contenido-cabecera{
+	position: absolute;
+	bottom:80px;
+	left: 80px;
 }
 
 .servicios div{
