@@ -20,18 +20,29 @@
 
 <body>
 
-<!-- Seccion Barra de Menú <div class="fixed-top">
-    <div class="fixed-top">
-      
+<!-- Seccion Barra de Menú <div class="fixed-top">-->
+    <div class="fixed-top">      
       <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#inicio">
-            <img src="img/logo.png" width="250" alt="César Prince" loading="lazy">
+            <img src="img/logo.png" width="200" alt="César Prince" loading="lazy">
         </a>
 
+     
+<div class="d-flex">
+    <form class="form-inline my-2 my-lg-0 justify-content-end mr-4">
+        <div class="input-group">
+          <input type="text" class="form-control input-search" placeholder="Buscar...">
+          <span class="input-group-btn">
+            <button class="btn btn-default btn-search" type="button" title="Clic para buscar"><span class="fa fa-circle-thin text-azul"></span></button>
+          </span>
+        </div>
+    </form>
+
         
-        <a class="justify-content-end h5 pr-3" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" href="#" title="Menú">
-          <img src="img/ellipsis.png" width="10" alt="Menú">
+        <a class="justify-content-end h5 mx-3 mt-2" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" href="#" title="Menú">
+          <img src="img/ellipsis.png" width="8" alt="Menú">
         </a>
+</div>
       </nav>
       <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-success p-2">
@@ -56,53 +67,8 @@
             </div>
         </div>
       </div>
-    </div>-->
-<!--Fin Seccion Barra de Menú -->
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="menu">
-    <a class="navbar-brand" href="#">
-        <img src="img/logo.png" width="200" alt="" loading="lazy">
-      </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-
-            <div class="input-group">
-              <input type="text" class="form-control input-search" placeholder="Buscar...">
-              <span class="input-group-btn">
-                <button class="btn btn-default btn-search" type="button"><span class="fa fa-search text-success"></span></button>
-              </span>
-            </div>
-
-        </div>
-      </form>
     </div>
-  </nav>
+<!--Fin Seccion Barra de Menú-->
 
 <!-- Seccion de Cabecera -->
     <header class="cabecera d-flex align-items-end" id="inicio">
@@ -122,8 +88,6 @@
 
 
 <!-- Seccion Oferta Académica -->
-
-
     <section class="mt-3" id="academico">
         <br><br>
         <div class="p-5">
@@ -191,7 +155,7 @@
 
 <section id="blog p-5">
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselBlog" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="row justify-content-md-center">
@@ -380,17 +344,87 @@
                 </div>
         </div>
         </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselBlog" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Anterior</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselBlog" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Siguiente</span>
   </a>
 </div>
+</div>
 </section>
 <!-- Fin Seccion Blog -->
+
+<!-- Seccion Nostros -->
+<section>
+    <div class="row about bg-azul" id="nosotros">
+        <div class="col-md-6  about-content text-light h5 d-flex align-items-center">
+            <div class=" m-5 py-5 px-4">
+                <div>
+                    <div id="carouselNosotros" class="carousel slide" data-ride="carousel">
+                        
+                        <div class="carousel-inner px-2">
+                          <div class="carousel-item active">
+                            <div>
+                                <h4 class="spacing h1">NOSOTROS</h4>
+                                <p class="text-justify">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorem consequatur quae nam placeat, debitis ut possimus modi molestias soluta doloremque voluptates voluptas hic. Sint animi mollitia nulla est eveniet?
+                                </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div>
+                                <h4 class="spacing h1">MISIÓN</h4>
+                                <p class="text-justify">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorem consequatur quae nam placeat, debitis ut possimus modi molestias soluta doloremque voluptates voluptas hic. Sint animi mollitia nulla est eveniet?
+                                </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div>
+                                <h4 class="spacing h1">VISIÓN</h4>
+                                <p class="text-justify">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorem consequatur quae nam placeat, debitis ut possimus modi molestias soluta doloremque voluptates voluptas hic. Sint animi mollitia nulla est eveniet?
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <ul class="carousel-indicators" style="margin: -50px;">
+                            <li data-target="#carouselNosotros" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselNosotros" data-slide-to="1"></li>
+                            <li data-target="#carouselNosotros" data-slide-to="2"></li>
+                          </ul>
+
+                      </div>
+
+                      
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 p5 about-image">
+
+        </div>
+    </div>
+    <div class="row contenido">
+        <div class="col-md-4 contenido-1">
+            
+        </div>
+        <div class="col-md-4 contenido-2"></div>
+        <div class="col-md-4 contenido-3">
+            <div class="capa-contenido d-flex">
+                <h4 class="spacing text-light m-auto">NEUROCIENCIA</h4>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Fin Seccion Nostros -->
+
+
+
+
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
