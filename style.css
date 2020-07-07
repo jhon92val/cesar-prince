@@ -86,7 +86,7 @@ a.separador:after{
 
 	background: rgb(0,22,93);
 
-	background-image: url("img/background-1.png");
+	background-image: url("img/background-1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	/*background-attachment: fixed;
@@ -196,7 +196,7 @@ a.separador:after{
 
 .about-image{
 	background-color: green;
-	background-image: url('img/nosotros.png');
+	background-image: url('img/nosotros.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 520px;
@@ -208,21 +208,21 @@ a.separador:after{
 }
 
 .contenido-1{
-	background-image: url('img/background-3.png');
+	background-image: url('img/background-3.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 420px;
 }
 
 .contenido-2{
-	background-image: url('img/background-2.png');
+	background-image: url('img/background-2.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 420px;
 }
 
 .contenido-3{
-	background-image: url('img/background-4.png');
+	background-image: url('img/background-4.jpg');
 	position: relative;
 	background-size: cover;
 	background-repeat: no-repeat;
