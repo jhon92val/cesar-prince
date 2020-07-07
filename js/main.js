@@ -5,7 +5,7 @@ $(document).ready(function(){
     // Efecto parallax en imagen de inicio;
         if (ancho <= 1350){
             $('header').css({
-                'background-size': 'initial'
+                'background-size': 'cover'
             });
         }
 
