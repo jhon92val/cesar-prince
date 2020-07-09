@@ -264,44 +264,74 @@ a.separador:after{
 	text-decoration: none;
 }
 
-.team-text{
-	
+.team-item{
+	margin: 30px 0px;
 }
 
-.team-text h5{
+
+.team-text{
 	font-size: 100px;
 	font-weight: 900;
-	padding:50px 0px;
+	line-height : 90px;
+	overflow: visible;
 
 }
 
-.team-item{
-	background-color: lightgray;
-}
 
 .team-photo{
-width: 110px;
-height: 110px;
-overflow: hidden;
-border-radius: 1000px;
-background: linear-gradient(90deg, rgba(0,22,93,1) 0%, rgba(9,98,121,1) 50%, rgba(30,126,52,1) 100%);
-
-
+	border: double 4px transparent;
+	border-radius: 1000px;
+	background-image: linear-gradient(white, white), radial-gradient(circle at top left, #2a2d7e,#009b42);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	overflow: hidden;
+	width: 118px;
+	height: 118px;
 }
 
 .team-photo img{
-	border: 5px solid #fff;
+	border: double 4px transparent;
 	border-radius: 1000px;
+	background-image: linear-gradient(white, white), radial-gradient(circle at top left, #2a2d7e,#009b42);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
 	margin: 5px;
+
 }
 
 .team-content{
-	border: 5px solid;
-	border-image-source: linear-gradient(90deg, rgba(0,22,93,1) 0%, rgba(9,98,121,1) 50%, rgba(30,126,52,1) 100%);
-	border-image-slice: 1;
-	width: 50%;
-	height: 45%;
-	padding: 20px;
-
+	border: double 3px transparent;
 	border-radius: 0px 0px 0px 80px;
+	background-image: linear-gradient(white, white), radial-gradient(circle at top left, #2a2d7e,#009b42);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	width: 95%;
+}
+
+.team-content hr{
+	background: linear-gradient(to right, #2a2d7e, #009b42);
+	height: 2px;
+	margin: 0px!important;
+}
+
+.team-description{
+	width: 70%;
+	color: gray;
+}
+
+.icon-team{
+	
+	margin-right: 15px;
+}
+
+.icon-team a{
+	color: #009b42;
+	font-size: 20px;
+}
+
+.icon-team a:hover{
+	color: #2a2d7e;
 }
