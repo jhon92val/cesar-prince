@@ -8,6 +8,7 @@
 @import url(css/owl.carousel.min.css);
 @import url(fonts/font-awesome.min.css);
 @import url(css/aos.css);
+@import url(css/owl.theme.default.min.css);
 * {
   margin: 0;
   padding: 0; }
@@ -155,7 +156,7 @@ a.separador:after{
 
 .blog-image{
 	width: 100%;
-	height: 350px;
+	height: 450px;
 	background-size: cover;
 	transition: transform .6s; /* Animation */
 }
@@ -336,11 +337,16 @@ a.separador:after{
 	color: #2a2d7e;
 }
 
+#mapa{
+	margin: 0;
+}
+
 .suscripcion{
 	background-color: rgb(0, 147, 67);
 	
 }
 
-.suscripcion div{
+.suscripcion-item{
 	font-size: 20px;
+	width: 80%;
 }
