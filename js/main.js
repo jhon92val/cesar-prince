@@ -22,7 +22,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
+    $('#carousel-blog').owlCarousel({
         loop:true,
         margin:10,
         responsiveClass:true,
@@ -42,6 +42,13 @@ $(document).ready(function(){
             }
         }
     })
+
+    $('#carousel-about').owlCarousel({
+        items:1,
+        margin:80,
+        width: 100
+
+    });
     
 });
 

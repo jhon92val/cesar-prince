@@ -8,7 +8,7 @@
 @import url(css/owl.carousel.min.css);
 @import url(fonts/font-awesome.min.css);
 @import url(css/aos.css);
-@import url(css/owl.theme.default.min.css);
+
 * {
   margin: 0;
   padding: 0; }
@@ -213,7 +213,10 @@ a.separador:after{
 	margin-top: 80px;
 	height: 520px;
 }
-
+.slider-about{
+	padding: 0px 100px;
+	width: 100%;
+}
 .about-image{
 	background-color: green;
 	background-image: url('img/nosotros.jpg');
